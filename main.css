@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#353b48; 
+    list-style: none;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url(./images/top_gun_maverick.jpg);
+    width: 100vw;
+    min-height: 80vh;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.header__name {
+    font-family: "Concert One", sans-serif;
+    color: #f5f6fa;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+
+.filme__tabs {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.filme__tabs__button {
+    font-size: 20px;
+    border: none;
+    color: #e1b12c; 
+    background: none;
+    text-transform: uppercase;
+    margin: 100px 4vw;
+    cursor: pointer;
+}
+
+.filme__list__item{
+    display:none;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+    place-items: center;
+    
+}
+
+.filme__list__item__paragrafo{
+    font-size: 24px;
+}
+
+.filme__list__secundary__subitem {
+    font-size: 34px;
+}
+
+
+.filme__list__item--block {
+    display: none;
+    grid-template-columns: 1fr;
+}
+
+.filme__list__item--is-active {
+    display: grid;
+}
+
+.filme__tabs__button--is-active {
+    border-bottom: 5px solid #e1b12c
+}
+
+.filme__list__item img {
+    padding-bottom: 35px;
+}
